@@ -26,7 +26,7 @@ export default class Motion extends Component {
                     whilePress={{ scale: 0.8 }}
                     style={{ x: 100 }}
                 >
-                    <h2>Motion Component</h2>
+                    <h2> Framer Motion Component</h2>
                 </motion.a>
 
             </Layout>
