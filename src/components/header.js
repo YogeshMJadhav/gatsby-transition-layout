@@ -13,11 +13,11 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `0.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
+      <h1 style={{ margin: 0, padding:10 }}>
+        {/* <Link
           to="/"
           style={{
             color: `white`,
@@ -25,7 +25,10 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle}
-        </Link>
+        </Link> */}
+        <Link to="/" style={{color:'black'}}> Home {' '}</Link>
+        <Link to="/motion" style={{color:'black'}}>Motion {' '}</Link>
+        <Link to="/page-load" style={{color:'black'}}>Page-Load{' '}</Link>
       </h1>
     </div>
   </header>

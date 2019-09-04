@@ -1,11 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `iVision Web Studio`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-page-load-delay',
+    "gatsby-plugin-layout",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
